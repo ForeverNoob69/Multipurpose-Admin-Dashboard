@@ -1,0 +1,130 @@
+.button{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.grid{
+    display: flex;
+    /* grid-template-columns: ; */
+    justify-content: space-between;
+}
+.lineGrid{
+    width: 50vw;
+    margin-left: 0.5rem;
+}
+.lineDemo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0rem 0 1rem;
+    /* flex-direction: column; */
+    align-items: center;
+}
+.lineHeader > p{
+    margin: 0;
+}
+.lineHeader > h4{
+    margin: 0;
+}
+.chartDiv{
+    height: 220px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.second-row{
+    height: 180px;
+    display: flex;
+    /* overflow: scroll; */
+}
+.trans-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 250px; */
+    /* overflow: scroll; */
+}
+.trans-lists{
+    overflow: scroll;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.trans-list{
+    height: 180px;
+    /* width: ; */
+    align-items: center;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+.trans-name{
+    margin: 0;
+    padding: 0;
+}
+.trans-name > p{
+    margin: 0;
+    padding: 0;
+}
+.trans-name>h4{
+    margin: 0;
+    padding: 0;
+
+}
+.trans-info{
+    margin: 1rem 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.third-row{
+    display: flex;
+    height:30vh ;
+}
+.third-bar{
+    width:100%;
+}
+.campaign{
+    margin: 0.4rem;
+    height: fit-content;
+    padding: 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: flex-start;
+}
+.campaign > h4{
+    margin: 0;
+    padding: 0 0 0.8rem 0;
+}
+.campaign > h5{
+    margin: 1rem 0 0 0;
+    padding: 0rem;
+}
+.sale-quantity{
+    width: 30vw;
+    height: 200px;
+    margin: 0.7rem 0;
+    padding: 1rem -3rem 1rem 1rem;
+    place-items: center;
+}
+.bar{
+    padding: 0 !important;
+}
+.sale-quantity > h4{
+    margin: 0;
+    padding: 0;
+}
+.third-geo{
+    margin: 1rem;
+    width: 100%;
+}
+.geo-item{
+    height: 30vh;
+    overflow: scroll;
+    /* padding: ; */
+}
+.geo-item > h4{
+    padding: 0 1rem;
+}

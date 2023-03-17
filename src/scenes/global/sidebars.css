@@ -1,0 +1,27 @@
+.sidebars{
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    /* position: absolute; */
+    border: none !important;
+}
+
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem ;
+    place-items: center;
+}
+.toggle-btn{
+    cursor: pointer;
+}
+.category{
+    color: gray;
+    margin: 0 0 0 1.5rem;
+}
+
+::-webkit-scrollbar{
+    color: red;
+}
